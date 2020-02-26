@@ -7,7 +7,8 @@ and the application returns ingredients and recipies for each cocktail.
 I used HTML, CSS, Javascript and jQuery to create a responsive design thats 
 easy to interface with.
 
-I looked into the contents of the API to decide what I wanted the app to offer.
+I used this API https://www.thecocktaildb.com, it took a moment to understand how to grab the correct data.
+But learning to work with objects and arrays and the syntax for retrieving information was a great help.
 
 I broke down the website into three sections that handled different aspects of the 
 user interface. A search function that was easy to use, the main content sections that 
