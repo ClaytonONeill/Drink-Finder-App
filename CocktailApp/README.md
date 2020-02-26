@@ -16,3 +16,6 @@ And a footer that contained simple isntructions for how to sue the website.
 
 I had a bit of trouble with the repsonsive design aspect of the project, sizing everything and getting 
 chrome to recognize my media queries.
+
+
+Link to the application: https://claytononeill.github.io/
