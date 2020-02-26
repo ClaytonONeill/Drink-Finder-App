@@ -137,7 +137,7 @@ input[type='text']  {
 .infoContain h3 {
   margin-left: 3em;
   font-size: 1.7em;
-  text-shadow: -2px 2px white;
+  text-shadow: -1px 1px white;
 }
 
 
@@ -277,6 +277,8 @@ mobile design styling
     .infoContain  h3  {
       font-size: 1em;
       margin: 0;
+      text-shadow: -1px 1px white;
+      }
     }
 
     .drinkInfoTitles  {
