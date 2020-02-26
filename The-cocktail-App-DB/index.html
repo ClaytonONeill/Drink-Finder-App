@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Drink Maker</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Julius+Sans+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="mainDiv">
+      <h1>DRINK FINDER</h1>
+  <div class="navDiv">
+      <nav>
+        <form>
+          <input type="text" name="text" value="" id='enterText'>
+          <input type="submit" name="submit" value="SUBMIT">
+        </form>
+      </nav>
+  </div>
+  <div class="drinkInfo">
+      <input type="button" name="close" value="CLOSE" id='close'>
+      <div class="infoContain" id="drinkNameDiv">
+          <h3 class="drinkInfoTitles" id="drinkNameHeader">Drink:</h3>
+          <h3 class='drinksInfoStyle' id='drinkName'></h3>
+    </div>
+    <div class="infoContain" id="drinkGlassWareDiv">
+        <h3 class="drinkInfoTitles" id="glassWareHeader">Glass Ware:</h3>
+        <h3 class='drinksInfoStyle'   id='glassWare'></h3>
+    </div>
+    <div class="infoContain" id="drinkIngredientsDiv">
+        <h3 class="drinkInfoTitles" id='drinkIngredientsHeader'>Ingredients:</h3>
+        <h3 class='drinksInfoStyle' id='ingredients1'></h3>
+        <h3 class='drinksInfoStyle' id='ingredients2'></h3>
+        <h3 class='drinksInfoStyle' id='ingredients3'></h3>
+        <h3 class='drinksInfoStyle' id='ingredients4'></h3>
+    </div>
+    <div class="infoContain"             id="drinkDirectionsDiv">
+        <h3 class="drinkInfoTitles" id="instructionsHeader">Instructions:</h3>
+        <h3 class='drinksInfoStyle' id='instructions'></h3>
+    </div>
+  </div>
+    <div class="imagesDiv">
+    </div>
+    <div class="instructionsDiv">
+      <h2>How to use:</h2>
+        <h3>Look up a cocktail by full name, or input a single letter to find a variety of cocktails with that letter in the name.</h3>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8">
+    </script>
+    <script src="JS/app.js">
+    </script>
+  </body>
+</html>

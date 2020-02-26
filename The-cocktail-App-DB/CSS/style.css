@@ -1,0 +1,312 @@
+ body  {
+  font-family: 'Anton', arial;
+  text-align: center;
+  background-color: white;
+}
+
+
+.mainDiv {
+  height: auto;
+  width:  100%;
+}
+
+
+h1  {
+  text-align: center;
+  letter-spacing: 1em;
+  margin: 5px;
+}
+
+
+.navDiv {
+  width: 98%;
+  height: 5em;
+  background: rgba(128,0,0, .8);
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#close  {
+  margin-top: 5px;
+  margin-right: 5px;
+  background: red;
+  height: 3em;
+  width: 10em;
+  border-radius: 10px;
+}
+
+#close:hover  {
+  background: maroon;
+  transition: .5s;
+  width: 15em;
+}
+
+input[type='submit']  {
+  margin-top: 5px;
+  margin-right: 5px;
+  background: lightgreen;
+  height: 5em;
+  width: 10em;
+  border-radius: 10px;
+}
+
+input[type='submit']:hover  {
+  background-color: green ;
+  transition: .7s;
+}
+
+input[type='text']  {
+  margin-top: 10px;
+  margin-left: 2.4em;
+  height: 4em;
+  width: 25em;
+  border-radius: 10px;
+  font-size: .8em;
+  font-weight: bolder;
+  text-align: center;
+  color: grey;
+}
+
+.imagesDiv{
+  margin: 2px auto;
+  height: auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.drinkImgDiv {
+  height: 10em;
+  width: 10em;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 1em;
+  box-shadow: 0px 0px 4px black;
+}
+
+.drinkImgDiv:hover  {
+  border: 3px solid magenta;
+  transform: scale(1.5);
+  transition: .7s;
+}
+
+.drinkImg {
+  height: 10em;
+  width: 10em;
+  border-radius: 2px;
+}
+
+.drinkInfo  {
+  font-family: 'Julius Sans One', arial;
+  font-weight: bolder;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  width:  95%;
+  height: auto;
+  line-height: 2em;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+  background: lightgrey;
+}
+
+.drinksInfoStyle  {
+  margin-top: 1.25em;
+}
+
+.infoContain  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 2em;
+  border: 1px solid maroon;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.infoContain h3 {
+  margin-left: 3em;
+  font-size: 1.7em;
+  text-shadow: -2px 2px white;
+}
+
+
+#instructions {
+  text-align: center;
+  font-size: 1.5em;
+  padding-right: 10px;
+}
+
+.instructionsDiv  {
+  background: lightgrey;
+  padding: 10px;
+  width: 96.5%;
+  margin: 0 auto;
+  font-family: 'Julius Sans One', arial;
+}
+
+
+
+/*
+mobile design styling
+*/
+
+
+@media (max-width: 500px) {
+
+    body {
+        background: lightgrey;
+      }
+
+    .mainDiv {
+      height: auto;
+      width:  100%;
+      border: 3px dotted black;
+    }
+
+    h1  {
+      text-align: center;
+      letter-spacing: .2em;
+      margin: 5px;
+    }
+
+
+    .navDiv {
+      width: 98%;
+      height: 5em;
+      background: rgba(128,0,0, .8);
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    input[type='submit']  {
+      margin-top: 15px;
+      margin-right: 5px;
+      background: lightgreen;
+      height: 4em;
+      width: 7em;
+      border-radius: 10px;
+    }
+
+    input[type='submit']:hover  {
+      background-color: green ;
+      transition: .7s;
+    }
+
+    input[type='text']  {
+      margin-top: 15px;
+      margin-left: 2.4em;
+      height: 4em;
+      width: 17em;
+      border-radius: 10px;
+      font-size: .6em;
+      text-align: center;
+      color: grey;
+    }
+
+    .imagesDiv  {
+      margin: 10px auto;
+      height: auto;
+      width: 95%;
+      border-bottom: 1px solid rgba(0,0,0, .5);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .drinkImgDiv {
+      height: 6em;
+      width: 6em;
+      border: 3px solid white;
+      border-radius: 5px;
+      margin: 1em;
+      box-shadow: 0px 0px 4px black;
+    }
+
+    .drinkImgDiv:hover  {
+      border: 3px solid magenta;
+      transition: .4s;
+    }
+
+    .drinkImg {
+      height: 6em;
+      width: 6em;
+      border-radius: 2px;
+    }
+
+    .drinkInfo  {
+      font-family: 'Julius Sans One', arial;
+      font-weight: bolder;
+      margin: 2em auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      width:  85%;
+      height: auto;
+      line-height: 2em;
+      border: 2px solid maroon;
+      border-radius: 10px;
+      z-index: 1;
+      display: none;
+      background: lightgrey;
+    }
+
+    .infoContain  {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .infoContain  h3  {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    .drinkInfoTitles  {
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: underline;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .drinksInfoStyle  {
+      color: black;
+      text-shadow: 2px 2px black;
+      font-size: 25px;
+      border: none;
+      margin-right: 7em;
+    }
+
+
+    .instructionsDiv  {
+      background: lightgrey;
+      padding: 0px;
+      width: 96.5%;
+      margin: 0 auto;
+      font-family: 'Julius Sans One', arial;
+    }
+
+    #instructions {
+      font-family: 'Julius Sans One', arial;
+      font-size: 1em;
+    }
+
+}
