@@ -149,13 +149,20 @@ input[type='text']  {
 
 .instructionsDiv  {
   background: lightgrey;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 96.5%;
   margin: 0 auto;
   font-family: 'Julius Sans One', arial;
 }
 
+.instructionsDiv h2 {
+  padding-top: 15px;
+}
 
+.instructionsDiv h3 {
+  padding-bottom: 10px;
+}
 
 /*
 mobile design styling
