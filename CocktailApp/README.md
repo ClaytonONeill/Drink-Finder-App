@@ -13,7 +13,7 @@ But learning to work with objects and arrays and the syntax for retrieving infor
 I broke down the website into three sections that handled different aspects of the 
 user interface. A search function that was easy to use, the main content sections that 
 displayed the images of the cocktails, that you can click on and then display information.
-And a footer that contained simple isntructions for how to sue the website.
+And a footer that contained simple insntructions for how to sue the website.
 
 I had a bit of trouble with the repsonsive design aspect of the project, sizing everything and getting 
 chrome to recognize my media queries.
